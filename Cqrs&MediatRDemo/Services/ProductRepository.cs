@@ -6,7 +6,7 @@ namespace Cqrs_MediatRDemo.Services
 {
     public class ProductRepository : IProductRepository
     {
-        public readonly DataContext _dbContext;
+        private readonly DataContext _dbContext;
         public ProductRepository(DataContext dbcontext) => _dbContext = dbcontext;
         
         public async Task<Product> AddProductAsync(Product product)
