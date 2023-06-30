@@ -19,7 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Data\Command\" />
     <Folder Include="Data\Handlers\" />
   </ItemGroup>
 
